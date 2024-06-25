@@ -63,5 +63,5 @@ def predict():
     else:
         return jsonify({"error": "No message provided"})
 
-# if __name__ == "__main__":
-#     app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
